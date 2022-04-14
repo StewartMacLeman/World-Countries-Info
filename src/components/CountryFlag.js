@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const CountryFlag = () => {
-    return (
-        <div className="countryFlag">
-          <img src="" alt="The flag of country {}."/>
-        </div>
-    )
-}
+const CountryFlag = (props) => {
+  return (
+    <div className="countryFlag">
+      <img src={props.flag} alt={`The flag of country ${props.name}.`} />
+    </div>
+  );
+};
 
 export default CountryFlag;
