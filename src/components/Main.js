@@ -1,8 +1,11 @@
 import React from 'react';
+import CountryContainer from './CountryContainer';
 
 const Main = (props) => {
     return (
-        <main className="countriesContainer">{props.children}</main>
+        <main className="countriesContainer">
+            <CountryContainer />
+        </main>
     )
 }
 
