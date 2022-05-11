@@ -2,7 +2,7 @@
 
 This is a simple web-application that displays basic information of the countries of the world.
 
-## Build with:
+## Built with:
 * React.js
 * CSS
 ---
